@@ -3,7 +3,7 @@ max = 0
 mcw = str();
 
 flag = True;
-while flag is True:
+while flag:
     try:
         file = input("File: ");
         fhand = open(file.strip())
